@@ -1,6 +1,6 @@
 # Meta-CETM
 
-This is the official implementation for the NeurIPS 2023 paper ***Context-guided Embedding Adaptation for Effective Topic Modeling in Low-Resource Regimes***. We have developed an approach that is proficient in discovering relevant topics from only a few documents, and the core idea is to adaptively generate word embeddings semantically tailored to the given task by fully exploiting the contextual syntactic information. We hope this will offer an alternative for the text analysis under low-resource scenarios.
+This is the official implementation for the NeurIPS 2023 paper ***Context-guided Embedding Adaptation for Effective Topic Modeling in Low-Resource Regimes***. We have developed an approach that is proficient in discovering meaningful topics from only a few documents, and the core idea is to adaptively generate word embeddings semantically tailored to the given task by fully exploiting the contextual syntactic information. <!--We hope this will offer an alternative for the text analysis under low-resource scenarios.-->
 
 <img src="/display/overview.png" width="672" height="320">
 
@@ -18,3 +18,8 @@ We curated the vocabulary for each dataset by removing those words with very low
 
 
 ## Episodic task construction
+Since we adopted an episodic training strategy to learn our model, we need to sample a batch of tasks from the original corpus to construct the training, validation, and test sets separately. To do this, `unzip` the downloaded pre-processed datasets, place the `data` folder under the root directory, and then execute the following command.
+```
+cd utils
+python process_to_task.py
+```
