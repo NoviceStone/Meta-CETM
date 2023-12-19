@@ -1,6 +1,8 @@
 # Meta-CETM
 
-This is the official implementation for the NeurIPS 2023 paper 'Context-guided Embedding Adaptation for Effective Topic Modeling in Low-Resource Regimes'
+This is the official implementation for the NeurIPS 2023 paper ***Context-guided Embedding Adaptation for Effective Topic Modeling in Low-Resource Regimes***. We have developed an approach that is proficient in discovering relevant topics from only a few documents, and the core idea is to adaptively generate word embeddings semantically tailored to the given task by fully exploiting the contextual syntactic information. We hope this will offer an alternative for the text analysis under low-resource scenarios.
+
+<img src="/display/overview.png" width="672" height="320">
 
 ## Get started
 The following lists the statistics of the datasets we used.
