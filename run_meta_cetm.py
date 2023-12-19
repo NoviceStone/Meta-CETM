@@ -16,9 +16,9 @@ parser = argparse.ArgumentParser(description='Combining graph contextual informa
 
 # data-related arguments
 parser.add_argument('--seed', type=int, default=2023, help='random seed.')
-parser.add_argument('--dataset', type=str, default='20ng', help='name of used dataset.')
-parser.add_argument('--data_path', type=str, default='./data/20ng/20ng_8novel.pkl', help='path to load raw data file.')
-parser.add_argument('--embed_path', type=str, default='./data/glove.6B/glove.6B.100d.txt', help='path of pretrained glove embeddings.')
+parser.add_argument('--dataset', type=str, default='', help='name of used dataset.')
+parser.add_argument('--data_path', type=str, default='', help='path to load raw data file.')
+parser.add_argument('--embed_path', type=str, default='', help='path of pretrained glove embeddings.')
 parser.add_argument('--save_dir', type=str, default='./results', help='directory to save visualization results.')
 
 # model-related arguments
