@@ -18,8 +18,9 @@ We curated the vocabulary for each dataset by removing those words with very low
 
 
 ## Episodic task construction
-Since we adopted an episodic training strategy to learn our model, we need to sample a batch of tasks from the original corpus to construct the training, validation, and test sets separately. To do this, `unzip` the downloaded pre-processed datasets, place the `data` folder under the root directory, and then execute the following command.
-```
+Since we adopted an episodic training strategy to learn our model, we need to sample a batch of tasks from the original corpus to construct the training, validation, and test sets separately. To do this, `unzip` the downloaded pre-processed datasets, put the `data` folder under the root directory, and then execute the following command.
+```bash
 cd utils
 python process_to_task.py
 ```
+Note that for different datasets, please modify the arguments **dataset_name** and **data_path** accordingly.
