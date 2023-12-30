@@ -28,5 +28,5 @@ Note that for different datasets, please modify the arguments **dataset_name** a
 ## Experiment: per-holdout-word perplexity (PPL)
 To train a **Meta-CETM** with the best predictive performance from scratch, run the following command
 ```bash
-python run_meta_cetm.py --dataset 20ng --data_path ./data/20ng/20ng_8novel.pkl --embed_path ./data/glove.6B/glove.6B.100d.txt
+python run_meta_cetm.py --dataset 20ng --data_path ./data/20ng/20ng_8novel.pkl --embed_path ./data/glove.6B/glove.6B.100d.txt --num_docs_per_task 10 --num_topics 20 --mode train
 ```
