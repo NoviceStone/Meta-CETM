@@ -34,3 +34,7 @@ To train a **ETM** using the model-agnostic meta-learning ([MAML](https://arxiv.
 ```bash
 python run_etm.py --dataset 20ng --data_path ./data/20ng/20ng_8novel.pkl --embed_path ./data/glove.6B/glove.6B.100d.txt --docs_per_task 10 --num_topics 20 --mode train --maml_train True
 ```
+In the same vein, to train a **ProdLDA** from scratch using *MAML*, you can run the command
+```bash
+python run_avitm.py --dataset 20ng --data_path ./data/20ng/20ng_8novel.pkl --docs_per_task 10 --num_topics 20 --mode train --maml_train True
+```
