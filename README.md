@@ -38,3 +38,13 @@ In the same vein, to train a **ProdLDA** from scratch using *MAML*, you can run 
 ```bash
 python run_avitm.py --dataset 20ng --data_path ./data/20ng/20ng_8novel.pkl --docs_per_task 10 --num_topics 20 --mode train --maml_train True
 ```
+
+## Citation
+```bib
+@inproceedings{xu2023context,
+      title={Context-guided Embedding Adaptation for Effective Topic Modeling in Low-Resource Regimes}, 
+      author={Yishi Xu and Jianqiao Sun and Yudi Su and Xinyang Liu and Zhibin Duan and Bo Chen and Mingyuan Zhou},
+      booktitle = {NeurIPS 2023: Neural Information Processing Systems},
+      year={2023}
+}
+```
