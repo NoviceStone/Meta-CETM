@@ -41,11 +41,15 @@ python run_avitm.py --dataset 20ng --data_path ./data/20ng/20ng_8novel.pkl --doc
 
 ## Citation
 ```bib
-@article{xu2024context,
-  title={Context-guided Embedding Adaptation for Effective Topic Modeling in Low-Resource Regimes},
-  author={Xu, Yishi and Sun, Jianqiao and Su, Yudi and Liu, Xinyang and Duan, Zhibin and Chen, Bo and Zhou, Mingyuan},
-  journal={Advances in Neural Information Processing Systems},
-  volume={36},
-  year={2024}
+@inproceedings{NEURIPS2023_fce17645,
+ author = {Xu, Yishi and Sun, Jianqiao and Su, Yudi and Liu, Xinyang and Duan, Zhibin and Chen, Bo and Zhou, Mingyuan},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Oh and T. Neumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
+ pages = {79959--79979},
+ publisher = {Curran Associates, Inc.},
+ title = {Context-guided Embedding Adaptation for Effective Topic Modeling in Low-Resource Regimes},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/fce176458ff542940fa3ed16e6f9c852-Paper-Conference.pdf},
+ volume = {36},
+ year = {2023}
 }
 ```
